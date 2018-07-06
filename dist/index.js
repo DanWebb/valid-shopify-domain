@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Ensure the provided .myshopify.com domain is valid:
  * - Ends with .myshopify.com
@@ -27,4 +26,4 @@ var validShopifyDomain = function (domain) {
     }
     return domain;
 };
-exports.default = validShopifyDomain;
+module.exports = validShopifyDomain;

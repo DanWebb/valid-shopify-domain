@@ -31,4 +31,4 @@ const validShopifyDomain = (domain: string): string => {
 	return domain;
 };
 
-export default validShopifyDomain;
+export = validShopifyDomain;

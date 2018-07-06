@@ -8,4 +8,4 @@
  * @throws If invalid
  */
 declare const validShopifyDomain: (domain: string) => string;
-export default validShopifyDomain;
+export = validShopifyDomain;
