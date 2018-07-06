@@ -1,6 +1,6 @@
 {
   "name": "valid-shopify-domain",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ensure the provided .myshopify.com domain is valid",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

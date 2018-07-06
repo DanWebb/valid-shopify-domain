@@ -1,7 +1,7 @@
 # Valid Shopify Domain
 Ensure the provided .myshopify.com domain is valid meaning...
 - It ends with .myshopify.com
-- Has a store name that is longer than 4 characters and shorter than 60 charcters
+- Has a store name that is greater than or equal to 4 characters and less than or equal to 60 charcters
 - Does not contain characters other than letters (a-z), numbers (0-9), dots, and hyphens.
 
 ## Install
