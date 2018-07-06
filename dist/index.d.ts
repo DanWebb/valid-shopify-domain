@@ -1,5 +1,5 @@
 /**
- * Ensure the provided domain is valid:
+ * Ensure the provided .myshopify.com domain is valid:
  * - Ends with .myshopify.com
  * - Has a store name that is longer than 4 characters and shorter than 60 charcters
  * - Does not contain characters other than letters (a-z), numbers (0-9), dots, and hyphens.
