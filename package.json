@@ -1,6 +1,6 @@
 {
   "name": "valid-shopify-domain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ensure the provided .myshopify.com domain is valid",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/DanWebb/valid-shopify-domain/issues"
   },
-  "homepage": "https://github.com/DanWebb/valid-shopify-domain#readme",
+  "homepage": "https://github.com/DanWebb/valid-shopify-domain/blob/master/readme.md",
   "devDependencies": {
     "ava": "1.0.0-beta.6",
     "typescript": "2.9.2"
