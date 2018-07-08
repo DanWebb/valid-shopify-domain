@@ -2,13 +2,16 @@
 /**
  * Ensure the provided .myshopify.com domain is valid:
  * - Ends with .myshopify.com
- * - Has a store name that is longer than 4 characters and shorter than 60 charcters
+ * - Has a store name that is greater than or equal to 4 characters and less than or equal to 60 charcters
  * - Does not contain characters other than letters (a-z), numbers (0-9), dots, and hyphens.
  * @param domain a .myshopify.com domain
  * @returns The domain if valid
  * @throws If invalid
  */
 var validShopifyDomain = function (domain) {
+    if (!domain) {
+        throw new Error('No domain was provided');
+    }
     if (domain.slice(-14) !== '.myshopify.com') {
         throw new Error('The provided domain did not end in .myshopify.com');
     }

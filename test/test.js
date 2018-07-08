@@ -8,6 +8,12 @@ test('Providing a valid domain returns the domain', t => {
 	t.is(validShopifyDomain('store-123.myshopify.com'), 'store-123.myshopify.com');
 });
 
+test('Not providing any domain throws an error', t => {
+	const domain = '';
+	const message = 'No domain was provided';
+	t.throws(() => validShopifyDomain(domain), message);
+});
+
 test('Providing a domain that does not end in .myshopify.com throws an error', t => {
 	const domain = 'store.myshpfy.com';
 	const message = 'The provided domain did not end in .myshopify.com';

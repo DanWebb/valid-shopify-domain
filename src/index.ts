@@ -8,6 +8,10 @@
  * @throws If invalid
  */
 const validShopifyDomain = (domain: string): string => {
+	if (!domain) {
+		throw new Error('No domain was provided');
+	}
+
 	if (domain.slice(-14) !== '.myshopify.com') {
 		throw new Error('The provided domain did not end in .myshopify.com');
 	}
