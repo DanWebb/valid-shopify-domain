@@ -13,7 +13,7 @@ npm i -S valid-shopify-domain
 ```js
 import validShopifyDomain from 'valid-shopify-domain';
 
-validShopifyDomain('store.myshopify.com'); // outputs: store.myshopify.com
+validShopifyDomain('store.myshopify.com'); // returns: store.myshopify.com
 
 validShopifyDomain('store.myshpfy.com'); // throws: The provided domain did not end in .myshopify.com
 
